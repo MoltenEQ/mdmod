@@ -1,5 +1,8 @@
 <sounds root="sfx/">
-    <sound name="Uzi Railgun Shot">
+    <sound name="LaserShoot">
         <sample weight="1" path="laser_bwoom.wav" />
+    </sound>
+    <sound name="LaserCharge">
+        <sample weight="1" path="laser_charge.wav" />
     </sound>
 </sounds>

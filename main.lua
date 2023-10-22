@@ -1,4 +1,5 @@
 local mod = RegisterMod("MdMod",1)
+local sfxManager = SFXManager()
 local game = Game()
 
 -- Maybe Uzi character mod coming up? :D
@@ -15,6 +16,14 @@ function mod:EvaluateCache(player, cacheFlags)
 end
 
 mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, mod.EvaluateCache)
+
+function mod:EvaluateActive(collectibleID, rngObj, playerWhoUsedItem, useFlags, activeSlot, varData)
+    local laserSound = Isaac.GetSoundIdByName("LaserCharge")
+    sfxManager:Play(laserSound)
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_ITEM,mod.EvaluateActive,CollectibleType.COLLECTIBLE_SHOOP_DA_WHOOP)
+
 
 -- Some stuff 
 -- Generated with ddeeddii.github.io/ezitems-web/

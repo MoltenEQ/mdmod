@@ -1,0 +1,3 @@
+<items gfxroot="gfx/items/" version="1">
+    <passive id="1" name="Absolute Solver" gfx="absolute_solver.png" description="Trial version only" quality="2" cache="damage"/>
+</items>

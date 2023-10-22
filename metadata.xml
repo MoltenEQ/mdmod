@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Uzi's Railgun</name>
+    <directory>mdmod</directory>
+    <id>3058049133</id>
+    <description>This mod replaces the item Shoop Da Whoop! with Uzi's railgun from the online animated series Murder Drones by Glitch Productions.
+Bite me!</description>
+    <version>0.2</version>
+    <visibility>Private</visibility>
+    <tag id="Graphics"/>
+    <tag id="Sound Effects"/>
+    <tag id="Music"/>
+</metadata>

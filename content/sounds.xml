@@ -5,4 +5,45 @@
     <sound name="LaserCharge">
         <sample weight="1" path="laser_charge.wav" />
     </sound>
+    <!-- Overrides not working -->
+    <!-- <sound id="5">
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom..wav" />
+		<sample weight="1" path="laser_bwoom..wav" /> -->
+	<!--
+		<sample weight="1" path="blood laser short.wav" />
+		<sample weight="1" path="blood laser short 2.wav" />
+	-->
+	<!-- </sound>
+    <sound id="6">
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+	</sound>
+    <sound id="7"> -->
+	<!--
+		<sample weight="1" path="blood laser long.wav" />
+	-->
+		<!-- <sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+	</sound>
+    <sound id="10">
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+		<sample weight="1" path="laser_bwoom.wav" />
+	</sound> -->
+    <!-- Probably Mega Brim -->
+    <!-- <sound id="278">
+		<sample weight="1" path="V2/Blood Laser Long Start.wav" />
+	</sound>
+	<sound id="279">
+		<sample weight="1" path="V2/Blood Laser Long Loop.wav" />
+	</sound>
+	<sound id="280">
+		<sample weight="1" path="V2/Blood Laser Long End.wav" />
+	</sound>
+	<sound id="281">
+		<sample weight="1" path="V2/Blood Laser Medium Loop.wav" />
+	</sound> -->
 </sounds>
